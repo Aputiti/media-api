@@ -8,8 +8,9 @@ The Multimedia Management API enables the organization and retrieval of differen
 
 ## Access the API
 
-Access the API through the following interface to try its functionalities:  
-[API Interface](http://multimedia-api.cloud.northeurope.azurecontainer.io:8080/swagger-ui/index.html)
+Access the API through the following interface to try its functionalities:
+
+# [API Interface](http://multimedia-api.cloud.northeurope.azurecontainer.io:8080/swagger-ui/index.html)
 
 ## Development Steps
 
