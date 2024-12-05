@@ -14,18 +14,16 @@ Access the API through the following interface to try its functionalities:
 
 ## Development Steps
 
-### Database Configuration
+Set up a MongoDB Atlas cluster and configured it to store media items.
 
-Configured a cloud-hosted database to store multimedia records. Used a scalable NoSQL solution for easy querying and management.
+### App Structure
 
-### Application Structure
+These classes were created:
 
-Developed the core application by implementing key components:
-
-- **Data Models** for defining multimedia properties.
-- **Database Layer** for handling storage and retrieval.
-- **Business Logic Layer** to process data.
-- **API Controllers** to expose endpoints.
+- **Model** to define media item properties.
+- **Repository** for database interactions.
+- **Service** to handle business logic.
+- **Controller** to define API endpoints.
 
 ### Additional Functionalities
 
@@ -57,8 +55,8 @@ Integrated **Swagger UI** for interactive API documentation. This interface deta
 
 ### Deployment Process
 
-Deployed the application to a cloud environment using containerization. Steps included:
+Deployed the application to a cloud environment using containerization (Azure using Docker and Azure Container Instances (ACI)). Steps included:
 
-1. Setting up a resource group and container registry in the cloud provider.
-2. Building and pushing a Docker image to the registry.
-3. Launching the containerized app in the cloud for public access.
+1. Setting up a resource group and container registry in Azure.
+2. Pushing a Docker image to the registry.
+3. Deploying the container to Azure container for public access.
