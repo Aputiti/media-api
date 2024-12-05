@@ -47,7 +47,7 @@ The API endpoints were tested using **Postman**, ensuring reliable performance a
 
 Integrated **Swagger UI** for interactive API documentation. This interface details the endpoints and their usage.
 
-![Swagger Overview](Screenshots/sc5.png)
+![Swagger Overview](screenshots/sc5.png)
 
 ### Configuration
 
